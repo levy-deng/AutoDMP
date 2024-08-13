@@ -19,7 +19,7 @@ RUN mkdir /root/.ssh && \
     chmod 600 /root/.ssh/id_ed25519.pub && \
     ssh-keyscan -t rsa github.com >> /root/.ssh/known_hosts
 
-RUN git clone --recursive git@github.com:nvlabs/AutoDMP /AutoDMP
+RUN git clone --recursive git@github.com:levy-deng/AutoDMP.git /AutoDMP
 
 RUN rm /root/.ssh/id_ed25519 && \
     rm /root/.ssh/id_ed25519.pub
