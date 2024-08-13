@@ -257,8 +257,8 @@ class AutoDMPWorker(Worker):
 
         hyperparameters = {
             "all": [
-                init_x,
-                init_y,
+                # init_x,
+                # init_y,
                 td,
                 dw,
                 halox,
